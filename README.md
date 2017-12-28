@@ -1,7 +1,7 @@
 # Foresight-TensorFlow
 Predicting future frames in videos using Convolutional GRU networks.
 
-All our code uses **TensorFlow**. If you plan to run this code you will also need **OpenCV, NumPy and SciPy**.
+All our code uses **Python 3** and **TensorFlow**. If you plan to run this code you will also need **OpenCV, NumPy and SciPy**.
 
 We propose a modification to the convolutional GRU architecture in [1] to perform prediction of future frames in human action videos. We introduce skip connections in the network similar to [2] and move away from the traditional use of squared error as loss function. We use a loss function we call Motion-Masked-Loss which penalizes incorrect pixel intensities in locations of high motion and penalizes less for background/non-moving areas. 
 
